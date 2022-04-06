@@ -305,7 +305,7 @@ const AppointmentDataTable = () => {
         <div className="px-5 py-3">
           {selectAppointment && (
             <div className="text-center  my-5">
-              <p className="mt-4 px-3">Payment Amount: 700 ৳</p>
+              <p className="mt-4 px-3">Payment Amount: RM 200</p>
               <p>Payment ID: {selectAppointment.paymentID}</p>
               <p>Payment Time: {selectAppointment.lastModified}</p>
             </div>

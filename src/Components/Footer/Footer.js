@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="row py-5">
             <FooterCol
               key={1}
-              menuTitle={"Online's Portal"}
+              menuTitle={"eConsult Portal"}
               menuItems={noNamed}
             />
             <FooterCol key={2} menuTitle="Services" menuItems={services} />
