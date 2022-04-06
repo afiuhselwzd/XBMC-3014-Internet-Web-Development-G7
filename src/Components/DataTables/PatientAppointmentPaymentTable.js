@@ -175,7 +175,7 @@ const PatientAppointmentPaymentTable = () => {
               <small>{selectDoctor.hospital}</small>
             </p>
             <p className="my-2">
-              Fees: <span className="text-success">৳ 700</span>
+              Fees: <span className="text-success">RM 200</span>
             </p>
 
             <div className="form-group text-right">
@@ -222,7 +222,7 @@ const PatientAppointmentPaymentTable = () => {
                   <h4 className="mt-4 lead text-success">
                     Your payment successful
                   </h4>
-                  <p className="mt-4 px-3">Payment Amount: 700 ৳</p>
+                  <p className="mt-4 px-3">Payment Amount: RM 200</p>
                   <p>Payment ID: {selectAppointment.paymentID}</p>
                 </div>
               ) : (
@@ -237,7 +237,7 @@ const PatientAppointmentPaymentTable = () => {
                     <p className="text-secondary mb-0">
                       Time : {selectAppointment.time}
                     </p>
-                    <p className="text-success">Pay 700 ৳ </p>
+                    <p className="text-success">Pay RM 200</p>
                     <p className="text-warning">
                       For testing purpose type 424242424242..... continually!{" "}
                     </p>

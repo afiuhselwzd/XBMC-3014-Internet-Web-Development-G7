@@ -130,7 +130,7 @@ const PrescriptionModal = (props) => {
                 <option value="1 - 0 - 1">1 - 0 - 1</option>
                 <option value="1 - 0 - 0">1 - 0 - 0</option>
                 <option value="1 - 1 - 0">1 - 1 - 0</option>
-                <option value="0 - 1 - 0">1 - 1 - 0</option>
+                <option value="0 - 1 - 0">0 - 1 - 0</option>
                 <option value="0 - 1 - 1">0 - 1 - 1</option>
                 <option value="1 - 0 - 0">1 - 0 - 0</option>
                 <option value="0 - 0 - 1">0 - 0 - 1</option>
